@@ -13,11 +13,12 @@ def nyc_pigeon_organizer(data)
         if !pigeons[name][attributes]
           pigeons[name][attributes] = []
         end
+        p inner_hash
 
        }
 
 
     end
   end
-pp  pigeons
+ pigeons
 end
