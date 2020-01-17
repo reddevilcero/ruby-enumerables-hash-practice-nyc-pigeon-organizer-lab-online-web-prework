@@ -10,7 +10,9 @@ def nyc_pigeon_organizer(data)
       names.each { |name|
 
         if !pigeons[name]
-          pigeons[name] = {}
+          pigeons[name] = {
+          }
+          p attributes
         end
 
        }
@@ -18,5 +20,5 @@ def nyc_pigeon_organizer(data)
 
     end
   end
-  p pigeons
+  pigeons
 end
