@@ -4,5 +4,5 @@ def nyc_pigeon_organizer(data)
     p key
     p value
     }
-  
+
 end
