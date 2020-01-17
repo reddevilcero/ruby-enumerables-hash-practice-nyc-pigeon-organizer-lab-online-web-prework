@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
 
   data.each_pair do |attributes, inner_hash|
 
-
+    p inner_attribute
     inner_hash.each_pair do |inner_attribute, names|
 
       names.each { |name|
@@ -12,7 +12,6 @@ def nyc_pigeon_organizer(data)
         if !pigeons[name]
           pigeons[name] = {
           }
-          p inner_hash
         end
 
        }
