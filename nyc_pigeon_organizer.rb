@@ -10,8 +10,9 @@ def nyc_pigeon_organizer(data)
         if !pigeons[name]
           pigeons[name] = {}
         end
-
-        p attributes
+        if !pigeons[name][attributes]
+          pigeons[name][attributes] = []
+        end
 
        }
 
